@@ -1,0 +1,21 @@
+{
+    "name": "roeder/module-adminonlypayment",
+    "description": "This module enable a new payment method only for admin orders.",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "contato@brunoroeder.com.br",
+            "name": "Bruno Roeder"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Roeder\\AdminOnlyPayment\\": ""
+        }
+    }
+}
